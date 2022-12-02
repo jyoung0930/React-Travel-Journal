@@ -26,7 +26,7 @@ In this project, the goal was to build out a travel journal page using React. Th
 
 ### Links
 
-- Live Site URL: [Travel Journal]()
+- Live Site URL: [Travel Journal](https://regal-sopapillas-e4a680.netlify.app/)
 
 ### Features
 

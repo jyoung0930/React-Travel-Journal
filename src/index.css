@@ -16,17 +16,6 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-.card {
-  width: 470px;
-  height: 168px;
-  border: 5px solid black;
-}
-
-.card > img {
-  height: 100%;
-  width: 125px;
-}
-
 .nav {
   background-color: #f55a5a;
   display: flex;
@@ -45,4 +34,72 @@ body {
   margin-left: 10px;
   font-weight: 500px;
   color: aliceblue;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  max-width: 470px;
+  height: 168px;
+  border: 5px solid gray;
+  margin: 30px auto;
+  padding: 5px;
+}
+
+.card--location {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.card--location,
+.date {
+  font-size: 10.24px;
+}
+
+.country--name,
+.card--location a {
+  margin-left: 5px;
+}
+
+.card--location a {
+  color: #918e9b;
+}
+
+.card > img {
+  height: 100%;
+  width: 125px;
+  border-radius: 5px;
+}
+
+.country--name {
+  letter-spacing: 0.17em;
+}
+
+.country-title,
+.date,
+.card--info p {
+  color: #2b283a;
+}
+
+.country--title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  margin: 5px 0 15px 0;
+}
+
+.date {
+  font-weight: 700;
+}
+
+.card--info p {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  margin-top: 5px;
+}
+
+.card--info {
+  margin-left: 10px;
 }
